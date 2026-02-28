@@ -1,39 +1,75 @@
 # React Task Manager
 
-A simple task management application built with **React + TypeScript + Vite + MUI**.
+Frontend portfolio project demonstrating modern React development using TypeScript and Material UI.
 
----
-
-## 🚀 Live Demo
-
+🔗 **Live Demo**
 https://react-task-manager-one-silk.vercel.app/
 
 ---
 
-## 🧩 Features
+## 📌 Overview
 
-* Add / Delete tasks
+This is a task management application built to practice and demonstrate practical frontend development skills including state management, UI component design, and responsive layout implementation.
+
+The application allows users to manage tasks with status control and persistent storage.
+
+---
+
+## ✨ Features
+
+* Create and delete tasks
 * Task status management (ToDo / Doing / Done)
-* Search & Filter
+* Real-time filtering and search
 * Status counters
-* LocalStorage persistence
-* Responsive UI using Material UI
+* Persistent storage using LocalStorage
+* Responsive UI design
+* Material UI component-based architecture
+
+---
+
+## 🧠 Technical Highlights
+
+* Custom React Hooks (`useTasks`)
+* Component separation & reusable structure
+* Type-safe state management with TypeScript
+* Controlled form inputs
+* Derived state using `useMemo`
+* LocalStorage synchronization
+* Clean UI composition using MUI
 
 ---
 
 ## 🛠 Tech Stack
 
-* React
-* TypeScript
-* Vite
-* Material UI (MUI)
-* LocalStorage
+| Category   | Technology        |
+| ---------- | ----------------- |
+| Framework  | React             |
+| Language   | TypeScript        |
+| Build Tool | Vite              |
+| UI Library | Material UI (MUI) |
+| Storage    | LocalStorage      |
+| Deployment | Vercel            |
 
 ---
 
-## 💻 How to Run Locally
+## 📂 Project Structure
 
-```bash
+```id="sm7y0t"
+src/
+ ├─ features/tasks/
+ │   ├─ TaskPage.tsx
+ │   ├─ useTasks.ts
+ │   ├─ storage.ts
+ │   └─ types.ts
+ ├─ App.tsx
+ └─ main.tsx
+```
+
+---
+
+## 🚀 Local Development
+
+```bash id="zss4yx"
 npm install
 npm run dev
 ```
@@ -42,10 +78,15 @@ npm run dev
 
 ## 🎯 Purpose
 
-This project was created as a portfolio application to demonstrate frontend development skills using modern React architecture and UI libraries.
+This project was created as a frontend portfolio to demonstrate:
+
+* React application architecture
+* TypeScript usage in real projects
+* UI implementation with component libraries
+* Practical state handling patterns
 
 ---
 
-## 📦 Repository
+## 👨‍💻 Author
 
-https://github.com/louis78780610/react-task-manager
+GitHub: https://github.com/louis78780610
