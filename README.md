@@ -3,14 +3,14 @@
 Task management app built with React and TypeScript.
 
 ## Demo
-- Local: http://localhost:5173/
-- Deployment: Coming soon
+- https://react-task-manager-one-silk.vercel.app/
 
 ## Tech Stack
 - React
 - TypeScript
 - Vite
-- ESLint
+- MUI
+- LocalStorage
 
 ## Features (WIP)
 - [ ] Task list (table)
